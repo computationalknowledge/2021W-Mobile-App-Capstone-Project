@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+
+\renewcommand{\labelitemi}{$\Box$}
+\renewcommand{\labelitemi}{$\star$}
+\renewcommand{\labelenumi}{\theenumi}
+
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+\title{Project Control Document for Team Peanut's IT Technology Tutor App}
+\author{Peter }
+\date{February 2021}
+
+\begin{document}
+
+\maketitle
+
+\section*{This is our Team's Project Plan}
+\includegraphics[scale=.3]{yogi.jpg}
+\section*{2021W Mobile App Capstone Project Planning Document}
+\newpage
+\input{1. Introduction to my project document}
+\input{0. Project Charter}
+\input{1. Key features and benefits of the Product}
+
+\input{0.WorkBreakdownStructure}
+\input{0.1.Backlog}
+
+\input{3.2.Keywords}
+
+\end{document}
